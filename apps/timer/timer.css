@@ -1,0 +1,5 @@
+body { background: #ffefef; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: 'Inter', sans-serif; }
+.timer-card { background: white; padding: 40px; border-radius: 20px; text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+#display { font-size: 80px; font-weight: bold; color: #ff4757; margin: 20px 0; }
+button { padding: 10px 25px; border: none; border-radius: 5px; cursor: pointer; background: #ff4757; color: white; margin: 5px; }
+.back { display: block; margin-top: 20px; color: #ccc; text-decoration: none; }

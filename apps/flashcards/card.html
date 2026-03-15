@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Z-Cards | Pro Flashcards</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="card" id="cardElement" onclick="flipCard()">
+            <div class="card-face front" id="frontText">What is HTML?</div>
+            <div class="card-face back" id="backText">HyperText Markup Language</div>
+        </div>
+    </div>
+    
+    <div class="controls" style="margin-top: 20px;">
+        <button onclick="nextCard()">Next Card →</button>
+    </div>
+    
+    <a href="../../index.html" style="display:block; margin-top:30px; color:#aaa; text-decoration:none;">← Back to Hub</a>
+
+    <script src="card.js"></script>
+</body>
+</html>

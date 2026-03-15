@@ -1,0 +1,1 @@
+console.log("Welcome to Zishao's Portfolio! Project initialized successfully.");
